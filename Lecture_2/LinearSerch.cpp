@@ -3,6 +3,7 @@ using namespace std;
 int main(){
     int n;
     int f=0;
+    int pos;
     int ele;
     cin>>n;
     int arr[n];
@@ -17,10 +18,12 @@ int main(){
     for(int i=0;i<n;i++){
         if(ele==arr[i]){
             f=1;
+            pos=i+1;
+            break;
         }
     }
     if(f==0){
         cout<<"Element not found";
-    }else cout<<"Elemnt fount";
+    }else cout<<"Elemnt found & position"<<pos;
     return 0;
 }
