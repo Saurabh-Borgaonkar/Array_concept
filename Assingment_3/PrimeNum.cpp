@@ -19,6 +19,5 @@ int main() {
 	} else {
 		cout<<"Not Prime"<<endl;
 	}
-	
 	return 0;
 }
