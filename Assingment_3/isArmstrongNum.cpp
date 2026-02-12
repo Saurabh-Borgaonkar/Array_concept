@@ -16,7 +16,6 @@ return (num==sum);
 int main() {
 	int n;
 	int len=0;
-	
 	cin>>n;
 	int temp=n;
 	while(temp!=0){
